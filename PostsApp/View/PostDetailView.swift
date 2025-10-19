@@ -58,6 +58,7 @@ struct PostDetailView: View {
                     .foregroundColor(.white)
             }
         }
+        .navigationBarBackButtonHidden(true)
         .navigationBarTitleDisplayMode(.inline)
         .toolbarBackground(Color.green, for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)

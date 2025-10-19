@@ -13,7 +13,7 @@ struct PostsListView: View {
                         .foregroundColor(.gray)
                         .padding(.leading, 12)
                     
-                    TextField("Search by title...", text: $viewModel.searchText)
+                    TextField("Search by title", text: $viewModel.searchText)
                         .textFieldStyle(.plain)
                     
                     if !viewModel.searchText.isEmpty {
